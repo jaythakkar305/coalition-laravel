@@ -4,14 +4,25 @@ Product CRUD from JSON file
 
 # Installation
 1. CLONE the package via the command line:
-  <pre>git clone https://github.com/jaythakkar305/coalition-laravel</pre>
+```
+git clone https://github.com/jaythakkar305/coalition-laravel
+```
 2. Change into the working directory
-  <pre>cd coalition-laravel</pre>
-   
-3. Install composer dependencies
-     <pre>composer install</pre>
-4. Run the artisan serve command
-   <pre>php artisan serve</pre>
+```
+git clone cd coalition-laravel
+```
+3. Copy .env.example to .env file
+```
+    cp .env.example .env
+```
+4. Install composer dependencies
+```
+    composer install
+```
+5. Run the artisan serve command
+```
+    php artisan serve
+```
 
 Open browser and use this url into it:
 

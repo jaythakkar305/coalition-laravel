@@ -26,7 +26,13 @@ git clone cd coalition-laravel
     php artisan key:generate
 ```
 
-6. Run the artisan serve command
+6. Migrate the database
+  
+```
+   php artisan migrate
+```
+
+7. Run the artisan serve command
 ```
     php artisan serve
 ```

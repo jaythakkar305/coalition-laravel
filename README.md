@@ -15,6 +15,12 @@ git clone cd coalition-laravel
 ```
     cp .env.example .env
 ```
+5. Genereate Application Key
+   Run this command to generate application key:
+   
+```
+    php artisan key:generate
+```
 4. Install composer dependencies
 ```
     composer install
